@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: black;
+    color: black;
+    text-shadow: 0 0 2px #fff,
+    0 0 4px #0ff,
+    0 0 8px #0ff,
+    0 0 10px #0ff;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #0ff,
+    0 0 15px #0ff,
+    0 0 30px #0ff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    background-color: black;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: black;
+    border: 1px solid #06eff3;
+    border-radius: 10px;
+    box-shadow: #0ff,
+    0 0 15px #0ff,
+    0 0 30px #0ff;
+}
+ input:hover {
+    box-shadow: 0px 0px 2px #0ff,
+    0 0 4px #0ff,
+    0 0 8px #0ff;
+ }
+
+input::placeholder {
+    color: #0ff;
+}
+
+input[placeholder] {
+    color: #0ff;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: rgb(60, 209, 246);
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    font-weight: bolder;
+    background-color: #0ff;
+    box-shadow: 0px 0px 2px #0ff,;
+}
+
+
+textarea {
+    height: 50px;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: black;
+    border: 1px solid #0ff;
+    border-radius: 20px;
+    background-color: black;
+}
+
+textarea:hover {
+    box-shadow: 0px 0px 2px #0ff,
+    0 0 4px #0ff,
+    0 0 8px #0ff;
+ }
+
+textarea::placeholder {
+    color: #0ff;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #0ff;
+    border: 1px solid #0ff;
+    border-radius: 20px;
+    background-color: black;
+}
+
+select:hover {
+    box-shadow: 0px 0px 2px #0ff,
+    0 0 4px #0ff,
+    0 0 8px #0ff;
+}
+
+option {
+    color: #0ff;
+    background-color: black;
+}
